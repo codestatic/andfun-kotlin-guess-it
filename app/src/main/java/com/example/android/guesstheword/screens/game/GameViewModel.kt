@@ -80,7 +80,7 @@ class GameViewModel : ViewModel() {
                 _eventGameFinish.value = true
             }
         }
-
+        // start the timer
         timer.start()
 
     }
